@@ -1,0 +1,22 @@
+{
+  "name": "vue-sfc-ast-parse-and-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.26.9",
+    "@babel/traverse": "^7.26.9",
+    "@babel/types": "^7.26.9",
+    "@types/babel__traverse": "^7.20.7",
+    "@vue/compiler-sfc": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
