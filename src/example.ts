@@ -1,16 +1,17 @@
 import {findMatchingSFCs} from "./index";
 import {presetClassFieldsUndefinedWithReactivityIssues, presetClassFieldsWithThisReference} from "./index";
 
+const projectPath = "/vue-project/src";
 
 findMatchingSFCs({
-    directory: "/vue-project/src",
+    directory: projectPath,
     predicate: presetClassFieldsUndefinedWithReactivityIssues,
     enableLogging: true,
 });
 
 
 findMatchingSFCs({
-    directory: "/vue-project/src",
+    directory: projectPath,
     predicate: presetClassFieldsWithThisReference,
     enableLogging: true,
 });
