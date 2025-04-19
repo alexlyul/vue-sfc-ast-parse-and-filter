@@ -2,7 +2,9 @@
 ## About
 This utility is designed to parse Vue Single File Components (SFCs) and filter out specific ones based on user-defined criteria. 
 It uses the `@vue/compiler-sfc` package to extract script content and the `@babel/parser` with `@babel/traverse` packages for traversing the AST.  
-It is used to make refactoring of Vue SFCs easily spot broken syntax with one of the presets.
+It is used to make refactoring of Vue SFCs easier and to spot broken syntax using one of the presets.
+
+Currently, presets are made to work with vue-class-component, but you can create your own custom predicates to filter out specific SFCs based on your needs.
 
 ## How to use
 ### Existing presets:
